@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons'
 const Navbar = () => {
-  const [hamburger , setHamburger ]=useState(false);
+  const [hamburger , setHamburger]=useState(false);
 const Link=[
   {id:1,
   link:'home'
