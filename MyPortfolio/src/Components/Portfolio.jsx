@@ -43,8 +43,8 @@ const Portfolio = () => {
                 {Name}
                 </div>
                 <div className='flex items-center justify-center'>
-                  <button className='bg-blue-700 w-1/2 px-1 py-2.5 m-2 duration-200 hover:scale-105'>Demo</button>
-                  <button className='bg-blue-700 w-1/2 px-1 py-2.5 m-2 duration-200 hover:scale-105'>Code</button>
+                  <button className='bg-blue-700 rounded-xl w-1/2 px-1 py-2.5 m-2 duration-200 hover:scale-105'>Demo</button>
+                  <button className='bg-blue-700 rounded-xl w-1/2 px-1 py-2.5 m-2 duration-200 hover:scale-105'>Code</button>
                 </div>
               </div>
               ))}

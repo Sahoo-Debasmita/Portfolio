@@ -14,7 +14,7 @@ const Link=[
   link:'portfolio'
   },
   {id:4,
-  link:'experience'
+  link:'technologies'
   },
   {id:5,
   link:'contact'
