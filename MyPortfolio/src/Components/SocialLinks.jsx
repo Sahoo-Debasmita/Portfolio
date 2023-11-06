@@ -18,13 +18,19 @@ const SocialLinks = () => {
     },
     {
       id: 3,
+      Name: 'Twitter',
+      Icon: <svg className='text-3xl' xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>,
+      href: "https://twitter.com/SDEBASMITA_404",
+    },
+    {
+      id: 4,
       Name: 'E-Mail',
       Icon: <svg className='text-2xl' xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>,
       href: "mailto:sdebasmita974@gmail.com",
    
     },
     {
-      id: 4,
+      id: 5,
       Name: 'Resume',
       Icon: <svg className='text-2xl' xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>,
       href: "/Updated_Resume.pdf",
@@ -36,9 +42,9 @@ const SocialLinks = () => {
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
         {Links.map(({ id, Name, Icon, href, style,download }) => (
-          <li key={id} className={'flex justify-between gap-2 items-center px-3 cursor-pointer ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 w-44 h-16 bg-gray-500' + " " + style}>
+          <li key={id} className={style}>
+            <a href={href} download={download} target='_blank' className='flex justify-between gap-2 items-center px-3 cursor-pointer ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 w-44 h-16 bg-gray-500'>
             <span className='text-xl text-white font-bold'>{Name}</span>
-            <a href={href} download={download} target='_blank'>
               {Icon}
             </a>
           </li>

@@ -2,14 +2,14 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='About' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
       <div  className='max-w-screen-lg p-4 mx-auto w-full h-full flex flex-col justify-center'>
-        <div className='pb-8'>
+        <div className='md:pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
-        <p className='text-xl mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis consectetur nemo ipsa et, in ullam laudantium reiciendis quibusdam totam reprehenderit ipsam ut ab dolorem quos minima sint inventore architecto labore asperiores cumque voluptatem sapiente voluptates consequuntur. Enim, sit temporibus, suscipit ipsum cum excepturi, blanditiis iusto deserunt illo maxime modi.</p>
+        <p className='text-xl mt-10'>Hello, I'm Debasmita, a recent graduate with a degree in Information Technology and Management from Ravenshaw University, Cuttack. My journey in the world of IT has just begun, and I'm enthusiastic about building a fulfilling career in this dynamic field. With a strong foundation in web development (HTML, CSS, and JavaScript), I am currently honing my skills in React to create responsive and engaging user interfaces. My passion for technology drives me to constantly learn, adapt, and innovate. I look forward to contributing my expertise and creativity to the ever-evolving IT landscape.</p>
         <br />
-        <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, adipisci. Totam iste perspiciatis deserunt ut tempora, suscipit inventore voluptatibus! Quae in corrupti, cum quod illo vero est dolorum hic esse nihil, exercitationem unde adipisci! Sit ad facilis suscipit optio placeat?</p>
+        <p className='text-xl italic'>Feel free to connect with me to explore collaborations and opportunities in the exciting realm of information technology. Let's create, innovate, and shape the future together!</p>
       </div>
     </div>
   )

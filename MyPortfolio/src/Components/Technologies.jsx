@@ -46,11 +46,12 @@ const Technologies = () => {
     },
   ]
   return (
-    <div name="Technologies" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name="technologies"
+    className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
        <div className='max-w-screen-lg mx-auto p-4 text-white w-full h-full flex flex-col justify-center'>
         <div>
             <p className='text-4xl font-bold border-b-4 inline border-gray-500'>Technologies</p>
-            <p className='py-6 text-lg'>These are some technologies I've worked with</p>
+            <p className='py-4 md:py-6 text-lg'>These are some technologies I've worked with</p>
         </div>
         <div className='w-full grid grid-cols-2 gap-8 sm:grid-cols-3 px-12 py-8 text-center sm:px-0'>
           {
