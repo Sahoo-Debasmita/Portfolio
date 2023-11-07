@@ -3,8 +3,8 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import SocialLinks from './Components/SocialLinks'
 import About from './Components/About'
-import Portfolio from './Components/Portfolio'
-import Technologies from './Components/Technologies'
+import Projects from './Components/Project'
+import Skill from './Components/Skill'
 import Contact from './Components/Contact'
 
 
@@ -14,9 +14,9 @@ function App() {
     <>
      <Navbar/>
      <Home/>
+     <Skill/>
+     <Projects/>
      <About/>
-     <Portfolio/>
-     <Technologies/>
      <Contact/>
      <SocialLinks/>
     </>

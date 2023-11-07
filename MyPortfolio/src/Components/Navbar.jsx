@@ -9,20 +9,20 @@ const Link=[
   link:"home"
   },
   {id:2,
-  link:"about"
+  link:"skill"
   },
   {id:3,
-  link:"portfolio"
+  link:"projects"
   },
   {id:4,
-  link:"technologies"
+  link:"about"
   },
   {id:5,
   link:"contact"
   },
 ]
   return (
-    <div className='flex justify-between items-center w-full h-20 bg-black text-white fixed'>
+    <div className='flex justify-between items-center w-full h-14 bg-black text-white fixed'>
     <div>
       <h2 className='font-signature text-4xl mt-2'>Debasmita</h2>
     </div>
