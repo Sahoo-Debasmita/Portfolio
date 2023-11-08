@@ -3,7 +3,7 @@ import Bubble from '../assets/Bubblegame.png'
 import MusicPlayer from '../assets/music player.jpg'
 import PasswordGenerator from '../assets/password generator.png'
 import TailwindCard from '../assets/TailwindCard.png'
-import Shoppingcart from '../assets/shopping cart app.png'
+import Shoppingcart from '../assets/ShoppingCart.png'
 
 const Project = () => {
  const Project=[
